@@ -66,10 +66,19 @@ IFVMode=6
 ```
 **修改建议：**
 - Primary是升级前的武器，设置为升级后的武器即可。
-- 例如Primary=120mmxE，直接就是三级天启，ElectricBoltE磁能。
+- 例如Primary=120mmxE，直接就是三级天启的炮弹，磁暴步兵三级带E是ElectricBoltE磁能。
 - ElitePrimary是升级后的武器，一般后面带E后缀。
 - Strength=130生命值，设置为6000左右够用了。
 - Speed=4是移动速度，10左右即可，太高容易卡带。
+
+**任意车辆载人攻击代码：**
+- 例如给磁暴坦克，给多功能步兵车加上之后，就可以载人射击了
+```
+PipScale=Passengers
+Passengers=5
+OpenTopped=yes;passengers can shoot out
+SizeLimit=10;1 ;gs like half track and Blackhawk.  Terror Drones and Brutes are allowed in.
+```
 
 兵种武器修改（全局通用）
 ----
