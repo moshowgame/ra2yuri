@@ -5,6 +5,16 @@
 整理by [zhengkai.blog.csdn.net](zhengkai.blog.csdn.net)
 
 
+红色警戒2022最新win10/win11超级无敌全能适配版
+----
+介绍视频
+https://www.bilibili.com/video/BV1SG4y1w72g/?spm_id_from=333.1007.tianma.7-4-26.click
+下载地址
+https://www.aliyundrive.com/s/v6iVUWGL3y5
+提取码: zq74
+
+
+
 红色警戒2(含尤里的复仇)完整免安装高压优化版
 ----
 这个版本还不错，音响震撼，包含战役所有视频，更是自带WIN10/WIN11运行支持，相对完美的收藏版本。正在上传阿里云。
