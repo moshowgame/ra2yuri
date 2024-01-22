@@ -5,13 +5,10 @@
 整理by [zhengkai.blog.csdn.net](zhengkai.blog.csdn.net)
 
 
-红色警戒2022最新win10/win11超级无敌全能适配版
+【扩展版】红色警戒2 重聚2023 1.4.20 最新win10/win11超级无敌全能适配版
 ----
 介绍视频
 https://www.bilibili.com/video/BV1SG4y1w72g/?spm_id_from=333.1007.tianma.7-4-26.click
-下载地址
-https://www.aliyundrive.com/s/v6iVUWGL3y5
-提取码: zq74
 
 
 
@@ -21,10 +18,14 @@ https://www.aliyundrive.com/s/v6iVUWGL3y5
 ```
 首选阿里云盘：
 
-「红色警戒2(含尤里的复仇)...安装高压优化版18.exe」，点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。
-链接：https://www.aliyundrive.com/s/78MpxNE1r5C
+【扩展版】红色警戒2 重聚2023 1.4.20.exe
+https://www.alipan.com/s/qA9VAdafGXe
+提取码: 3gy0
+点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。
 
-备用百度链接: https://pan.baidu.com/s/1BZTz7l_3ASmgmx7uhBDyNg 提取码: vvpp
+备用百度链接: 
+链接：https://pan.baidu.com/s/1zpgkrnQNHKZrqTGr0FVlMQ?pwd=15zh 
+提取码：15zh
 ```
 
 Win11红警玩不了怎么办
