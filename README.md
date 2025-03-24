@@ -5,16 +5,12 @@
 整理by [zhengkai.blog.csdn.net](zhengkai.blog.csdn.net)
 
 
-【扩展版】红色警戒2 重聚2023 1.4.20 最新win10/win11超级无敌全能适配版
+【版本一】红色警戒2 重聚2023 1.4.20 最新win10/win11超级无敌全能适配版
 ----
-介绍视频
+民间优化版本，包含第三帝国等内容，入门首选。介绍视频：
 https://www.bilibili.com/video/BV1SG4y1w72g/?spm_id_from=333.1007.tianma.7-4-26.click
 
 
-
-红色警戒2(含尤里的复仇)完整免安装高压优化版
-----
-这个版本还不错，音响震撼，包含战役所有视频，更是自带WIN10/WIN11运行支持，相对完美的收藏版本。正在上传阿里云。
 ```
 首选阿里云盘：
 
@@ -27,6 +23,22 @@ https://www.alipan.com/s/qA9VAdafGXe
 链接：https://pan.baidu.com/s/1zpgkrnQNHKZrqTGr0FVlMQ?pwd=15zh 
 提取码：15zh
 ```
+
+
+
+【版本二】红色警戒2(含尤里的复仇)完整免安装高压优化版18.exe
+----
+这个原版版本还不错，音响震撼，包含战役所有视频，更是自带WIN10/WIN11运行支持，相对完美的收藏版本。
+
+里面自带的[cnc-ddraw](https://github.com/FunkyFr3sh/cnc-ddraw)相对比较旧，可以下载最新版本自行替换，支持Win11。
+
+```
+https://www.alipan.com/s/k92gjZoy5fk
+提取码: 4x3y
+点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。
+```
+
+
 
 Win11红警玩不了怎么办
 ----
