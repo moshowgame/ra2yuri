@@ -39,7 +39,34 @@ https://www.alipan.com/s/k92gjZoy5fk
 点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。
 ```
 
-我的修改版：尤里的复仇 rulesmd - 苏军觉醒.ini
+rulesmd - 光棱科技.ini
+----
+改名为rulesmd.ini, 放入【版本二】红色警戒2(含尤里的复仇)完整免安装高压优化版的GameMD目录下即可。
+- 爱国者火箭：价格大幅下降，防控能力提升
+- 光棱塔：价格大幅下降，血量提升
+- 多功能坦克：偷学尤里控制，请注意控制数量防止翻车
+- 光棱坦克：无法被控制，价格大幅下降，血量大幅提升，武器更换为光棱塔武器
+- 战斗要塞：无法被控制，价格大幅下降，血量提升，武器更换为飞碟镭射-环形光束加强版
+- 盟军大兵：价格大幅下降，血量提升，全部武器更换为登月火箭班光束加强版
+- 重装步兵：价格大幅下降，血量提升，范围和攻击频率提升
+- 驱逐舰：价格大幅下降，血量提升，攻击距离大幅提升，驱逐者飞机数量X5
+- 盟军发电厂：电量巨幅提升
+- 战车工厂/盟军矿厂：价格下降，血量提升
+- 超时空传送/天气风暴：价格下降，血量提升，蓄能时间大幅降低
+
+修改版：尤里的复仇 rulesmd - 苏俄第三世界乌拉.ini
+----
+- 犀牛坦克：偷学榴弹炮，可对空射程提升，血量提升，价格下降。模型大小提升为两倍
+- 磁能坦克：偷学幻影坦克改进版，且可移动射击，血量提升，价格下降。
+- 动具兵：偷学病毒狙击手，血量提升，射程提升，攻击力提升，价格下降
+- 木乃伊：苏军阵营建造兵营后即可生产,血量为提升，偷学伊拉克辐射工兵
+- 天启坦克：射程提升，血量提升，价格下降，次技能防空范围提升，可搭载4人
+- V3火箭：13连发，血量巨幅提升，射程巨幅提升
+- 潜艇：射程提升
+- 无畏：射程巨大提升，20连发
+- 恐怖蜘蛛：能力提升，射程提升，攻击力提升，价格下降
+
+修改版：尤里的复仇 rulesmd - 苏军觉醒.ini
 ----
 改名为rulesmd.ini, 放入【版本二】红色警戒2(含尤里的复仇)完整免安装高压优化版的GameMD目录下即可。建议玩一下苏军战役爽一下！
 
@@ -53,7 +80,7 @@ https://www.alipan.com/s/k92gjZoy5fk
 - 磁能坦克：射程提升，血量提升，价格下降
 - V3火箭：14连发，血量巨幅提升
 
-我的修改版：尤里的复仇 rulesmd - 盟军觉醒.ini
+修改版：尤里的复仇 rulesmd - 盟军觉醒.ini
 ----
 改名为rulesmd.ini, 放入【版本二】红色警戒2(含尤里的复仇)完整免安装高压优化版的GameMD目录下即可。建议玩一下盟军战役爽一下！
 
@@ -72,6 +99,7 @@ https://www.alipan.com/s/k92gjZoy5fk
 - rules - 盟军起义.ini
 - rules - 苏军起义.ini
 类似尤里的复仇，都是优化HP和射程，建造价格下降，又不会特别变态，需要一定技巧就可以通过战役，建议用来回味战役。
+
 
 Win11红警玩不了怎么办
 ----
@@ -464,4 +492,235 @@ AssaultAnim=UCELEC;the anim to play when a UC building is cleared (assaulters ne
 8=BPLN;米格战机(鲍里斯的飞机)
 9=SPYP;侦察机
 10=CMISL;雷鸣导弹
+```
+
+```bash
+; ******* Weapon Statistics *******
+; The weapons specified here are attached to the various combat
+; units and buildings.
+
+; Anim = animation to display as a firing effect [use 8 for directional variation]
+; AreaFire = indicates that the weapon fires at the current cell and does damage in a radius (def=no). Warning: This only works for secondary weapons right now.
+; Bright = Does this weapons bullet cause a lighting effect when it impacts (def=no)? If set, this will override the warheads 'Bright' flag.
+; Burst = number of rapid succession shots from this weapon (def=1)
+; Camera = Reveals area around firer (def=no)?
+; Charges = SJM: I have disabled this system.  Use IsAnimDelayedFire in ART.INI instead.  Does it have charge-up-before-firing logic (def=no)?
+; Damage = the amount of damage (unattenuated) dealt with every bullet
+; Floater = floats like a frizbee
+; IonSensitive = Shuts down during an ion storm (def=no)?
+; Lobber = does the projectile fly to target in a high arc (def=no)?
+; MinimumRange = minimum range to target (def=0)
+; Projectile = projectile characteristic to use
+; RadLevel = the radiation level left by the weapon. (def=0)
+; Range = maximum cell range
+; ROF = delay between shots [15 = 1 second at middle speed setting]
+; Report = List of sounds to random play when firing
+; Speed = speed of projectile to target (100 is maximum)
+; Supress = Should nearby friendly buildings be scanned for and if found, discourage firing on target (def=no)?
+; TurboBoost = Should the weapon get a boosted speed bonus when firing upon aircraft?
+; UseFireParticles = Should the weapon spawn a flame particle system? (def = no)
+; Warhead = warhead to attach to projectile
+```
+
+
+```bash
+; ******* Unit Statistics *******
+; Specifies the characteristics of the various game objects.
+
+; AllowedToStartInMultiplayer = Can the unit be allocated to a player when starting a multiplayer game (def=yes)
+; Ammo = number of rounds carried between reloads [-1 means unlimited] (def=-1)
+; Armor = the armor type of this object [none,wood,light,heavy,concrete] (def=none);more types added in RA2
+; BuildLimit = arbitrary maximum allowed to build [per house] (def=-1 -- no restriction)
+; Cloakable = Is it equipped with a cloaking device (def=no)?
+; Cost = cost to build object (in credits)
+; Category = category of object [used by AI systems -- "Soldier", "Civilian", "VIP", "Ship",
+;            "Recon", "AFV", "IFV", "LRFS", "Support", "Transport", "AirPower", "AirLift"]
+; CloakStop = Does the unit cloak when stopped moving (def=no)?
+; Crewed = Does it contain a crew that can escape [never infantry] (def=no)?
+; Gunner = Does it change capabilites based on a gunner that has been added. (def=no)
+; CrushSound = sound to play if this object type is crushed (def=none)
+; DeployFire = This unit can fire when deployed. (def=no)
+; DeployFireWeapon = Index of weapon to fire while deployed.  0 or 1.  (def=1)
+; DeployTime = time, in minutes, to deploy or undeploy [if this object can do so]
+; DamageReducesReadiness = Yes if damage to the unit reduces its ammo (because the ammo explodes or becomes detargeted, or whatever) (def=no)
+; Disableable = Can this object be disabled by special multiplay option (def=yes)?
+; DistributedFire = whether the unit continually retargets nearby units and fires at all of them (def=no)
+; DoubleOwned = Can be built/owned by all countries in a multiplayer game (def=no)?
+; EmptyReload = Frames before first reload occurs when unit is empty. -1 means use standard reload time. (def=-1)
+; Explodes = Does it explode violently when destroyed [i.e., does it do collateral damage] (def=no)?
+; Explosion = the explosion to use when it blows up [doesn't apply to infantry] (def=none)
+; FireAngle = pitch of projectile launch and barrel [0 = horizontal, 64 = vertical] (def=50)
+; Gate = Is this building a gate? (def=no)
+; GateCloseDelay = time, in minutes, to delay before closing a gate after it has opened.
+; GuardRange = distance to scan for enemies to attack (def=use weapon range)
+; Image = name of graphic data to use for this object (def=same as object identifier)
+; Immune = Is this object immune to damage
+; ImmuneToPsionics = Is the unit immune to psionics (def=no)?
+; ImmuneToRadiation = Is the unit immune to radiation (def=no)?
+; ImmuneToVeins = Is it immune to vein creature attacks (def=no)?
+; InitialAmmo = number of rounds the unit starts with. -1 means it starts full. (def=-1)
+; Invisible = Is completely and always invisible to enemy (def=no)?
+; Insignificant = Will this object not be announed when destroyed (def=no)?
+; LegalTarget = Is this allowed to be a combat target (def=yes)?
+; Name = specifies the given name (displayed) for the object
+; Nominal = Always use the given name rather than generic "enemy object" (def=no)?
+; OmniFire = Doesn't ever have to rotate to fire. (def=no)
+; OpportunityFire = Can fire at targets while performing other actions, like moving. (def=no).
+; Owner = who can build this [GDI or Nod] (def=none)
+; PipScale = what to base pip display on [Passengers, Tiberium, Ammo, Power] (def=none)
+; PipWrap = how many pips to draw before wrapping (def=none)
+; Points = point value for scoring purposes (def=0)
+; Prerequisite = list of buildings needed before this can be manufactured (def=no requirement)
+; PreventAttackMove = Does this unit know how to do attack-move? (def=<yes, if it has a weapon>)
+;   Can be used to override attack move on units that shouldn't for various reasons.
+; PreventAutoDeploy = Does this unit know how to do auto-deploy? (def=<yes, if the unit support deploying>)
+;	Can be used to override auto deploy on units that deploy.
+; Primary = primary weapon equipped with (def=none)
+; Secondary = secondary weapon equipped with (def=none)
+; ElitePrimary = new primary weapon when at elite veteran status (def=same as primary)
+; EliteSecondary = new secondary weapon when at elite veteran status (def=same as secondary)
+; RadarVisible = Is visible on radar even when under shroud (def=yes [infantry=no])?
+; ROT = Rate Of Turn for body (if present) and turret (if present) (def=0)
+; ReadinessReductionMultiplier = Used to tweak the amount by which damage reduces readiness. 0 cancels the readiness reduction. (def=0)
+; Reload = time delay between reloads (def=0)
+; ReloadIncrement = amount to add at every ((MaxAmmo / PipWrap) %0) increment. Used to slow reload rate increasingly. (def=0)
+; RadarInvisible = Is it invisible on radar maps (def=no)?
+; RadialFireSegments = If this unit has a radial firing pattern, this determines the number
+;    of segments. This starts at the unit's left and goes right over 180 degrees.  (def=0)
+; SelfHealing = Does the object heal automatically up to half strength (def=no)?
+; Selectable = Can this object be selected by the player (def=yes)?
+; Sensors = Has sensors to detect nearby cloaked objects (def=no)?
+; Sight = sight range, in cells (def=1)
+; Size = amount of space unit takes up in cargo hold (def=1)
+; SizeLimit = Max size of unit a transport can carry (def=0) (Size is inclusive. Limit 3 holds 3)
+; Storage = the number of 'bails' this building or unit can store (def=0)
+; Strength = strength (hit points) of this object
+; TargetLaser = Does it have a targeting laser (def=no)?
+; Trainable = Can this object become veteran by experience (def=yes, buildings def=no)?
+; Turret = Is it equipped with a turret like superstructure [never infantry] (def=no)?
+; TurretSpins = Does the turret just sit and spin [only if turret equipped] (def=no)?
+; TechLevel = tech level required to build this [-1 means can't build] (def=-1)
+; ToProtect = Should friendly units come to rescue if under attack [computer only] (def=no)?
+; TypeImmune = Immune to damage from same type objects if owned by same side?
+; UndeployDelay = The time it takes before a unit automatically undeploys. (def=-1)
+; VoiceSelect = list of voices when selecting this object (def=none)
+; VoiceMove = list of voices to use when giving object a movement order (def=none)
+; VoiceAttack = list of voices to use when giving object an attack order (def=none)
+; DieSound = list of voices to use when it dies (def=none)
+; VoiceFeedback = list of voices that may give when taking damage (def=none)
+; Locomotor = CLSID of the object handling movement for this object (def=statue)
+; VeteranAbilities = list of veteran abilities to grant (def=none)
+; EliteAbilities = list of elite abilities to grant cumulative with veteran abilities (def=none)
+;     [FASTER,STRONGER,FIREPOWER,SCATTER,ROF,SIGHT,
+;      CLOAK,TIBERIUM_PROOF,VEIN_PROOF,SELF_HEAL,EXPLODES,
+;      RADAR_INVISIBLE,SENSORS,FEARLESS,C4,TIBERIUM_HEAL,
+;      GUARD_AREA,CRUSHER]
+; LeadershipRating = When the AI needs a representative from a team to make a pathfinding or targeting decision it will pick the one with the highest score (def = 5)
+;  <<< applies only to infantry types >>>
+;    Agent = Does it have spy-like abilities (def=no)?
+;    Fearless = Is not prone to fear (def=no)?
+;    VoiceComment = list of idle voices (def=none)
+;    Pip = color of pip when inside a transport [green,yellow,white,red,blue] (def=green)
+;    C4 = Equipped with building sabotage explosives [presumes Infiltrate is true] (def=no)?
+;    Cyborg = Does it require special cyborg death handling (def=no)?
+;    Fraidycat = Is it inherently afraid and will panic easily (def=no)?
+;    TiberiumProof = Is it immune to tiberium and tiberium gas damage (def=no)?
+;    Infiltrate = Can it enter a building like a spy or thief (def=no)?
+;    IsCanine = Should special case dog logic be applied to this?
+;    Civilian = Counts a civilian for evac and kill tracking (def=no)?
+;    FemaleVoice = Uses the civilian female voice (def=no)?
+;    Engineer = Does it behave like an engineer as far as repair and capture go (def=no)?
+;    Disguised = Is it disguised as enemy soldier when seen by enemy (def=no)?
+;    Agent = Does this infantry gather information if it enters an enemy building [like a spy] (def=no)?
+;    Thief = Does it steal money if it infiltrates an enemy building (def=no)?
+;    VehicleThief = Does it steal enemy vehicles when it gets close to one (def=no)?
+;    Deployer = Deploys like NOD artillery from TibSun. (def=no)
+;  <<< applies only to moving units (not buildings) >>>
+;    MoveToShroud = Allowed to move into a shrouded cell (def=yes, aircraft def=no)?
+;    Dock = preferred docking building [e.g., harvester -> refinery, helicopter -> helipad] (def=none)
+;    TiberiumHeal = Does it heal slowly when in Tiberium field (def=no)?
+;    Passengers = number of passengers it may carry (def=0)
+;    Speed = speed of this object [n/a for buildings] (def=0)
+;    ManualReload = Must this object reload by coordinating with reloader building (def=no)?
+;    WalkRate = walking animation rate [larger means slower] (def=1)
+;    IsSelectableCombatant=Does this unit get selected by the select all combatants key? (def=no)
+;  <<< applies only to turret changers >>>
+;    TurretCount=the number of turrets the unit has (def=0)
+;    WeaponX=the name of the weapon to be thought of as weaponX (where X is an integer) (def=none)
+;    YTurretIndex=the number of the weapon for this turret (as indicated by the WeaponX parameter), where Y is the name of swapping factor for the turret (def=none)
+;    HasTurretTooltips=whether this unit multiplexes tooltips based on its current turret. (def=no)
+;  <<< applies only to terrestrial driving vehicle types >>>
+;    CrateGoodie = Can it appear out of a crate in multiplay (def=no)?
+;    Crushable = Can it be crushed by a heavy tracked vehicle (def=no)?
+;    Crusher = Is this vehicle able to crush infantry (def=no)?
+;    MovingFire = The vehicle does not need to stop before it can fire (def=yes)?
+;    DeployToFire = The vehicle must deploy before it can fire (def=no)?
+;    Harvester = Does the special Tiberium harvesting rules apply (def=no)?
+;    Weeder = Does the special weed-harvesting rules apply (def=no)?
+;    Deployer = Does it deploy before being able to operate (def=no)? OBSOLETE
+;    IsTilter = Does this unit tilt on slopes (def=yes)?
+;    CarriesCrate = Might this unit drop a crate when it is destroyed (def=no)?
+;  <<< applies only to aircraft >>>
+;    Carryall = Can it tote vehicles around (def=no)?
+;    Landable = Can this aircraft land on the map (def=no)?
+;    PitchSpeed = Throttle setting at which aircraft pitch forward (def=.25);
+;    PitchAngle = Amount that non-FixedWing aircraft pitch forward in degrees (def=20.0);
+;    RollAngle = Amount that the aircraft rolls when turning (def=30.0)
+;  <<< applies only to building types >>>
+;    Adjacent = distance allowed to place from other buildings (def=1)
+;    BaseNormal = Considered for building adjacency checks (def=yes)? ;HEY!  Use this, not the phantom IsBase
+;    Barrel = Use barrel explosion logic when it is destroyed (def=no)?
+;    Bib = Does the building have a bib built in (def=no)?
+;    Capturable = Can this building be infiltrated by a spy/engineer (def=no)?
+;    DockUnload = When a unit docks with this building should it unload (def=no)?
+;    Factory = type of object to build [InfantryType, AircraftType, UnitType, BuildingType, VesselType] (def=none)
+;    Fake = Is this a fake structure (def=no)?
+;    FreeUnit = free unit to give this building [typically harvester with refinery] (def=none)
+;    Power = power output [positive for output, negative for drain] (def=0)
+;    Powered = Does it require power to function (def=no)?
+;    Radar = Does this building give radar to owning player (def=no)?
+;    Repairable = Can it be repaired (def=yes)?
+;		RevealToAll=yes Means that when built or captured, a radar event is generated (def=no)
+;    UnitReload = Does this building reload units if they dock with it (def=no)?
+;    UnitRepair = Does this building repair units if they dock with it (def=no)?
+;    Unsellable = Cannot sell this building (even if it can be built)?
+;    Wall = Is this a wall type structure [special rules apply] (def=no)?
+;    WaterBound = Is this building placed on water only (def=no)?
+;    Upgrades = Is the number of power-ups/upgrades that can be applied to this building (def=0)
+;    ShipYard = This building is a ship yard or sub pen
+;    SAM = This building is a SAM launcher
+;    ConstructionYard = This building is a construction yard
+;    Refinery = This building is a tiberium/ore refinery
+;    WeaponsFactory = This building is a weapons factory
+;    CloakGenerator = Does this building cloak objects around it?
+;    LaserFencePost = This building is a laser fence post and obeys the rules for a building of this type.
+;    LightIntensity = This building radiates this amount of light (def = 0).
+;    LightVisibility= The distance (in leptons) that this light is visible from (def=5000).
+;    LightRedTint   = The red tint of this buildings light (def=1.0)
+;    LightGreenTint = The green tint of this buildings light (def=1.0)
+;    LightBlueTint  = The blue tint of this buildings light (def=1.0)
+;    InvisibleInGame= Building cannot be seen on selected in the game, only in the editor. (def=no)
+;    PowersUpBuilding = Building that can be upgraded by attaching this building to it
+;    PowersUpToLevel = Amount of upgrade provided by this attachment. -1=incremental upgrade. Positive number is specific upgrade.
+;    Hospital = Can this building heal infantry (def = no) ?
+;    Armory = Is this building an armory
+;    PlaceAnywhere = Can this building ignore normal placement rules? Only use this for non-player placed buildings (def = no).
+;    Weeder = Is this a weed collection facility (def=no)?
+;    TogglePower = [override] Can be turned on/off under player control or affected by low power (def=yes)?
+;
+;	 WST 6/23/99. Below are new zbuffer adjustment for units
+;	 ZFudgeCliff // fudge for units behind cliffs showing through rocks
+;	 ZFudgeColumn // fudge for units behind bridge overpass support columns
+;	 ZFudgeTunnel // fudge for unit behind tunnel entrances
+;	 ZFudgeBridge // fudge for tall units when they are under a bridge... eg mammoth mk2
+;
+;These are the fields needed for buildings to take part in Urban Combat
+;Sight=2	;since the building will be 'captured' it needs to be able to look
+;ClickRepairable=no ;It can be repaired with an engineer but not with the wrench tool once 'captured'
+;CanBeOccupied=yes ;Basic UC flag
+;MaxNumberOccupants=10 ;Twiddle number
+;DistributedFire=yes ;To shoot all within range equally
+;Primary=AlliedOccupyW ;These two can't be global since types are read in before globals.  Please keep order as well
+;Secondary=SovietOccupyW
+;Selectable=yes    ;Or else you can never get the guys back out
 ```
